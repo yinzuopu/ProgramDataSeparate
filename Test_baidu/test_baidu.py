@@ -17,7 +17,7 @@ class TestBaidu(unittest.TestCase):
 		page.search_input("selenium")
 		page.search_button()
 		sleep(5)
-		self.assertEqual(page.get_title(), "selenium_°Ù¶ÈËÑË÷")
+		self.assertEqual(page.get_title(), "selenium_ç™¾åº¦æœç´¢")
 
 	@classmethod
 	def tearDownClass(cls):
